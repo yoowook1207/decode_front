@@ -13,7 +13,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development Description
 
-The application is focused on helping kids to have much interest to read and learn English. Using generative AI API to generate a story book in English. Users may choose an outline of the story, and AI fills up the details.
+The application is focused on helping kids to have much interest to read and learn English. Using generative AI API to generate a story book in English. Users may choose an outline of the story, and AI fills up the details...
 <!-- ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`. -->
