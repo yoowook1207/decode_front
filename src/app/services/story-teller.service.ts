@@ -9,9 +9,7 @@ import {Observable} from "rxjs";
 })
 export class StoryTellerService {
   serverURL = environment.backendURL
-  constructor(private readonly http: HttpClient) {
-
-  }
+  constructor(private readonly http: HttpClient) { }
 
   postGptResponse(chatInput:any): Observable<textInputDto> {
     return this.http.post<textInputDto>(`${this.serverURL}/story-teller/plot`, chatInput)
