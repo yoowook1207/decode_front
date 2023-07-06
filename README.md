@@ -3,7 +3,7 @@
 <!-- License: GPL, the heaviest license. Refer to (https://gist.github.com/nicolasdao/a7adda51f2f185e8d2700e1573d8a633)-->
 
 ## Table of Contents
-- [DecodeFront](#decodefront)
+
   - [Table of Contents](#table-of-contents)
   - [Development Description](#development-description)
   - [Running unit tests](#running-unit-tests)
