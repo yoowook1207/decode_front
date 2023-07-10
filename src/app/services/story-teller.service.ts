@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {environment} from "../../environments/environment";
-import {textInputDto} from "./interfaces/textInputDto";
+import {inputTextDto, returnTextDto} from "./interfaces/textDto";
 import {Observable} from "rxjs";
 
 @Injectable({
@@ -11,7 +11,7 @@ export class StoryTellerService {
   serverURL = environment.backendURL
   constructor(private readonly http: HttpClient) { }
 
-  postGptResponse(chatInput:any): Observable<textInputDto> {
-    return this.http.post<textInputDto>(`${this.serverURL}/story-teller/plot`, chatInput)
+  postGptResponse(chatInput:inputTextDto): Observable<returnTextDto> {
+    return this.http.post<returnTextDto>(`${this.serverURL}/story-teller/plot`, chatInput)
   }
 }
