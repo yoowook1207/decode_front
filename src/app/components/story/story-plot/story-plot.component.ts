@@ -1,7 +1,7 @@
 import {Component, ElementRef, OnInit, Renderer2, ViewChild} from '@angular/core';
 import {FormBuilder, FormControl, FormGroup} from "@angular/forms";
 import {StoryTellerService} from "../../../services/story-teller.service";
-import {inputTextDto} from "../../../services/interfaces/textDto";
+// import {inputTextDto} from "../../../services/interfaces/textDto";
 export enum Role {
   ASSISTANT = 'assistant',
   USER = 'user'
